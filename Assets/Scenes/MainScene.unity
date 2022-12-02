@@ -1565,5 +1565,5 @@ MonoBehaviour:
   ball: {fileID: 227273246}
   rigidBody: {fileID: 1868726775}
   AI_Velocity: 14.5
-  lerpSpeed: 5
+  lerpSpeed: 1
   distanceBuffer: 0.21

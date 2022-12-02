@@ -26,7 +26,7 @@ public class AIMovement : MonoBehaviour
         }
         else
         {
-            rigidBody.velocity = Vector2.Lerp(rigidBody.velocity, Vector2.zero * AI_Velocity, lerpSpeed * Time.deltaTime); //increase velocity to match with ball y position
+            //rigidBody.velocity = Vector2.Lerp(rigidBody.velocity, Vector2.zero * AI_Velocity, lerpSpeed * Time.deltaTime); //increase velocity to match with ball y position
         }
     }
 }
