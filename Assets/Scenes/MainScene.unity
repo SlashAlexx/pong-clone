@@ -512,8 +512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94257ab71e69ee47bad1045eaeaf6d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1484658881}
-  speed: 15
+  player: {fileID: 1484658881}
+  ballStartVelocity: 15
 --- !u!114 &227273253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,8 +530,6 @@ MonoBehaviour:
   opponent: {fileID: 1868726771}
   playerScoreText: {fileID: 723283585}
   opponentScoreText: {fileID: 1250970660}
-  playerScore: 0
-  opponentScore: 0
 --- !u!1 &286199918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,7 +1307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42e31b90502d23f45ae9cf3410a26f52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  playerSpeed: 14
 --- !u!1 &1531562017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1564,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 227273246}
   rigidBody: {fileID: 1868726775}
-  speed: 18
-  lerpSpeed: 2
-  distanceFactor: 0.2
+  AI_Velocity: 14.5
+  lerpSpeed: 5
+  distanceBuffer: 0.21

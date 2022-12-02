@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    public GameObject player, opponent, playerScoreText, opponentScoreText;
-    public int playerScore = 0;
-    public int opponentScore = 0;
+    [SerializeField] private GameObject player, opponent, playerScoreText, opponentScoreText;
+
+    private int playerScore = 0;
+    private int opponentScore = 0;
 
     private void OnCollisionEnter2D(Collision2D collision) // if ball enters collision
     {
